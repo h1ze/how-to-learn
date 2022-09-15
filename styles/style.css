@@ -38,6 +38,7 @@
   line-height: 96px;
   font-size: 102px;
   font-weight: 600;
+  z-index: 2;
 }
 
 .header__subtitle {
@@ -48,6 +49,7 @@
   line-height: 25px;
   font-size: 18px;
   font-weight: normal;
+  z-index: 2;
 }
 
 .header__link {
@@ -71,6 +73,11 @@
   position: absolute;
   right: 0;
   top: 64px;
+}
+
+.two-columns {
+  margin: 100px auto;
+  display: flex;
 }
 
 /* и элемента с модификатором вида ключ-значение */
