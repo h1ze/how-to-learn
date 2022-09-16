@@ -9,6 +9,12 @@
   font-family: "Helvetica Neue", Arial, sans-serif;
 }
 
+h1,
+h2,
+p {
+  margin: 0;
+}
+
 .logo {
   width: 228px;
   height: 32px;
@@ -78,6 +84,35 @@
 .two-columns {
   margin: 100px auto;
   display: flex;
+  justify-content: space-between;
+  width: 80%;
+}
+
+.two-columns__brief {
+  width: 175px;
+  color: #2f80ed;
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.two-columns__main-text {
+  width: 80%;
+  min-width: 784px;
+}
+
+.two-columns__paragraph {
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+}
+
+.two-columns__paragraph:not(:last-child) {
+  margin-bottom: 30px;
+}
+
+.two-columns__span-accent {
+  font-weight: 600;
 }
 
 /* и элемента с модификатором вида ключ-значение */
