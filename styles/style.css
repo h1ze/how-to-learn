@@ -11,6 +11,7 @@
 
 h1,
 h2,
+h3,
 p {
   margin: 0;
   padding: 0;
@@ -112,12 +113,35 @@ p {
   margin-bottom: 30px;
 }
 
-
-
 .two-columns__span-accent {
   font-weight: 600;
 }
 
+.digits {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.section-title {
+  width: 60%;
+  margin-bottom: 20px;
+  line-height: 1.15;
+  font-size: 60px;
+  font-weight: 600;
+}
+
+.section-subtitle {
+  width: 60%;
+  margin-bottom: 60px;
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+}
+
+.table {
+  width: 1100px;
+}
 /* и элемента с модификатором вида ключ-значение */
 .table__cell_theme_dark {
   width: 200px;
