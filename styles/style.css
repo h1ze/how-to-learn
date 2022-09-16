@@ -13,6 +13,7 @@ h1,
 h2,
 p {
   margin: 0;
+  padding: 0;
 }
 
 .logo {
@@ -110,6 +111,8 @@ p {
 .two-columns__paragraph:not(:last-child) {
   margin-bottom: 30px;
 }
+
+
 
 .two-columns__span-accent {
   font-weight: 600;
