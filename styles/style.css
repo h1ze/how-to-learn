@@ -208,3 +208,29 @@ li {
   right: 48px;
   top: 50%;
 }
+
+.kaufman {
+  background: #1f1f1f;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.section-title_theme_dark {
+  color: white;
+}
+
+.section-subtitle_theme_dark {
+  color: white;
+}
+
+.kaufman__triangle {
+  width: 877px;
+  height: 877px;
+  background-image: url("../images/kaufman-triangle.svg");
+  position: absolute;
+  top: 0;
+  right: -210px;
+}
