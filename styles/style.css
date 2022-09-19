@@ -86,7 +86,7 @@ li {
 }
 
 .description {
-  padding top: 100px;
+  padding-top: 100px;
   display: flex;
   justify-content: center;
 }
@@ -246,3 +246,6 @@ li {
   right: -210px;
   z-index: 1;
 }
+
+
+
