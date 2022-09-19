@@ -250,4 +250,19 @@ li {
 .footer {
   background: #1f1f1f;
   color: white;
+  padding: 60px 0 40px;
+}
+
+.footer__columns {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+}
+
+.footer__column_content_copyright {
+  flex-basis: 711px;
+}
+
+.logo_place_footer {
+  background: url("../images/logo_place_footer.svg");
 }
