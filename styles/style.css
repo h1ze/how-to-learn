@@ -13,6 +13,7 @@ h1,
 h2,
 h3,
 p,
+ul,
 li {
   margin: 0;
   padding: 0;
@@ -119,7 +120,7 @@ li {
 }
 
 .digits {
-  margin-bottom: 100px;
+  padding-bottom: 100px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -147,12 +148,12 @@ li {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  list-style: none;
 }
 
 .table__cell {
   width: 250px;
   margin-top: 60px;
-  list-style: none;
 }
 
 .table__heading {
@@ -168,12 +169,6 @@ li {
   font-weight: normal;
 }
 /* и элемента с модификатором вида ключ-значение */
-.table__cell_theme_dark {
-  width: 200px;
-  color: white;
-  margin-right: 0;
-  margin-top: 80px;
-}
 
 .feynman {
   height: 890px;
@@ -216,6 +211,8 @@ li {
   align-items: center;
   position: relative;
   overflow: hidden;
+  padding-top: 100px;
+  padding-bottom: 90px;
 }
 
 .section-title_theme_dark {
@@ -226,11 +223,22 @@ li {
   color: white;
 }
 
+.table__cell_theme_dark {
+  width: 200px;
+  color: white;
+  margin-right: 0;
+  margin-top: 80px;
+  z-index: 2;
+}
+
 .kaufman__triangle {
   width: 877px;
   height: 877px;
-  background-image: url("../images/kaufman-triangle.svg");
+  background: url("../images/kaufman-triangle.svg") no-repeat;
+  background-size: cover;
+  background-position: top left;
   position: absolute;
   top: 0;
   right: -210px;
+  z-index: 1;
 }
