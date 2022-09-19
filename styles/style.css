@@ -247,5 +247,7 @@ li {
   z-index: 1;
 }
 
-
-
+.footer {
+  background: #1f1f1f;
+  color: white;
+}
