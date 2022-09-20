@@ -35,6 +35,7 @@ li {
 }
 
 .logo_place_header {
+  background-image: url("../images/logo_place_header.svg");
   position: absolute;
   left: 64px;
   top: 30px;
@@ -64,6 +65,7 @@ li {
 
 .header__link {
   color: #2f80ed;
+  text-decoration: none;
 }
 
 .header__main-illustration {
@@ -207,6 +209,8 @@ li {
   position: absolute;
   right: 48px;
   top: 50%;
+  text-decoration: none;
+  color: #2f80ed;
 }
 
 .kaufman {
@@ -250,7 +254,6 @@ li {
 .footer {
   box-sizing: border-box;
   background: #1f1f1f;
-  color: white;
   min-height: 350px;
   padding: 60px 0 40px;
 }
@@ -278,21 +281,21 @@ li {
   line-height: 25px;
   font-size: 18px;
   font-weight: normal;
+  color: white;
 }
 
-/* .footer__column {
-  margin-bottom: 16px;
-} */
 
 .footer__column-heading {
   margin-bottom: 20px;
   line-height: 30px;
   font-size: 18px;
   font-weight: 600;
+  color: white;
 }
 
 .footer__column-links {
   list-style: none;
+  margin-bottom: 16px;
 }
 
 .footer__column-link {
@@ -300,6 +303,7 @@ li {
   font-size: 18px;
   font-weight: normal;
   text-decoration: none;
+  color: white;
 }
 
 .social-icon {
