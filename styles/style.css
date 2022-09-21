@@ -9,12 +9,21 @@
   font-family: "Helvetica Neue", Arial, sans-serif;
 }
 
-h1,
-h2,
-h3,
-p,
-ul,
-li {
+.header__title,
+.header__subtitle,
+.two-columns__brief,
+.two-columns__paragraph,
+.section-title,
+.section-subtitle,
+.table,
+.table__cell,
+.table__heading,
+.table__text,
+.feynman__title,
+.feynman__subtitle,
+.footer__author,
+.footer__column-heading,
+.footer__column-links {
   margin: 0;
   padding: 0;
 }
@@ -283,7 +292,6 @@ li {
   font-weight: normal;
   color: white;
 }
-
 
 .footer__column-heading {
   margin-bottom: 20px;
