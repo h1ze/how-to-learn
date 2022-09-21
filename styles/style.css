@@ -52,7 +52,6 @@
 
 .header__title {
   width: 730px;
-  height: 64px;
   margin-left: 64px;
   align-self: center;
   line-height: 96px;
@@ -80,6 +79,7 @@
 .header__main-illustration {
   width: 765px;
   height: 608px;
+  object-fit: cover;
   position: absolute;
   right: 0;
   bottom: 0;
