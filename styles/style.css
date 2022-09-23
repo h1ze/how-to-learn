@@ -9,19 +9,6 @@
   font-family: "Helvetica Neue", Arial, sans-serif;
 }
 
-.header__title,
-.header__subtitle,
-.two-columns__brief,
-.two-columns__paragraph,
-.section-title,
-.section-subtitle,
-.table,
-.table__cell,
-.table__heading,
-.table__text,
-.feynman__title,
-.feynman__subtitle,
-.footer__author,
 .footer__column-heading,
 .footer__column-links {
   margin: 0;
@@ -52,7 +39,8 @@
 
 .header__title {
   width: 730px;
-  margin-left: 64px;
+  margin: 0 0 0 64px;
+  padding: 0;
   align-self: center;
   line-height: 96px;
   font-size: 102px;
@@ -61,6 +49,8 @@
 }
 
 .header__subtitle {
+  margin: 0;
+  padding: 0;
   width: 388px;
   position: absolute;
   left: 64px;
@@ -109,6 +99,8 @@
 }
 
 .two-columns__brief {
+  margin: 0;
+  padding: 0;
   width: 175px;
   color: #2f80ed;
   line-height: 1.2;
@@ -122,6 +114,8 @@
 }
 
 .two-columns__paragraph {
+  margin: 0;
+  padding: 0;
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
@@ -143,8 +137,9 @@
 }
 
 .section-title {
+  margin: 0 0 20px;
+  padding: 0;
   width: 60%;
-  margin-bottom: 20px;
   line-height: 1.15;
   font-size: 60px;
   font-weight: 600;
@@ -152,6 +147,8 @@
 }
 
 .section-subtitle {
+  margin: 0;
+  padding: 0;
   width: 60%;
   line-height: 34px;
   font-size: 24px;
@@ -160,6 +157,8 @@
 }
 
 .table {
+  margin: 0;
+  padding: 0;
   width: 1100px;
   display: flex;
   justify-content: space-between;
@@ -168,18 +167,22 @@
 }
 
 .table__cell {
+  margin: 60px 0 0;
+  padding: 0;
   width: 250px;
-  margin-top: 60px;
 }
 
 .table__heading {
+  margin: 0;
+  padding: 0;
   line-height: 1.15;
   font-size: 24px;
   font-weight: 600;
 }
 
 .table__text {
-  margin-top: 20px;
+  margin: 20px 0 0;
+  padding: 0;
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
@@ -198,15 +201,18 @@
 }
 
 .feynman__title {
+  margin: 0 0 70px;
+  padding: 0;
   width: 648px;
   line-height: 1.15;
   font-size: 120px;
   font-weight: 600;
   text-align: center;
-  margin-bottom: 70px;
 }
 
 .feynman__subtitle {
+  margin: 0;
+  padding: 0;
   line-height: 51px;
   font-size: 36px;
   font-weight: normal;
@@ -290,6 +296,7 @@
 
 .footer__author {
   margin: 18px 0;
+  padding: 0;
   line-height: 25px;
   font-size: 18px;
   font-weight: normal;
@@ -297,7 +304,8 @@
 }
 
 .footer__column-heading {
-  margin-bottom: 20px;
+  margin: 0 0 20px;
+  padding: 0;
   line-height: 30px;
   font-size: 18px;
   font-weight: 600;
@@ -305,8 +313,9 @@
 }
 
 .footer__column-links {
+  margin: 0 0 16px;
+  padding: 0;
   list-style: none;
-  margin-bottom: 16px;
 }
 
 .footer__column-link {
