@@ -223,6 +223,27 @@
   color: #2f80ed;
 }
 
+.khan {
+  padding: 105px 0 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.khan__container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.khan__title {
+  margin: 0 0 50px;
+}
+
+.khan__quote {
+  margin: 0 0 36px;
+  padding: 0;
+  width: 790px;
+}
+
 .kaufman {
   background: #1f1f1f;
   display: flex;
@@ -278,7 +299,6 @@
 .resources__logo {
   width: 270px;
   height: 38px;
-  
 }
 
 .footer {
