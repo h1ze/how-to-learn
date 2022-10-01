@@ -238,6 +238,12 @@
   margin-left: 20px;
 }
 
+.oakley {
+  padding: 160px 0 100px;
+  display: flex;
+  justify-content: center;
+}
+
 .khan {
   padding: 105px 0 0;
   display: flex;
