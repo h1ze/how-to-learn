@@ -255,7 +255,6 @@
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
-  text-align: justify;
 }
 
 .khan__quote-author {
@@ -279,7 +278,9 @@
 .khan__book-pic {
   margin-right: 48px;
   width: 620px;
-  height: 608px;
+  height:608px;
+  object-fit: cover;
+  object-position: top;
 }
 
 .khan__buy-link {
