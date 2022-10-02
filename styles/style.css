@@ -1,3 +1,12 @@
+/* @keyframes fade {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0.5;
+  }
+} */
+
 .page {
   min-width: 1100px;
   /* мы ещё не умеем делать мобильную версию сайта, */
@@ -58,6 +67,11 @@
 .header__link {
   color: #2f80ed;
   text-decoration: none;
+  transition: opacity 0.5s ease;
+}
+
+.header__link:hover {
+  opacity: 0.5;
 }
 
 .header__main-illustration {
@@ -222,6 +236,11 @@
   top: 50%;
   text-decoration: none;
   color: #2f80ed;
+  transition: opacity 0.5s ease;
+}
+
+.feynman__link:hover {
+  opacity: 0.5;
 }
 
 .techniques {
@@ -364,6 +383,11 @@
   font-size: 30px;
   font-weight: normal;
   text-decoration: none;
+  transition: opacity 0.5s ease;
+}
+
+.khan__buy-link:hover {
+  opacity: 0.5;
 }
 
 .kaufman {
@@ -416,6 +440,14 @@
   width: 1100px;
   margin: 80px auto 0;
   text-align: right;
+}
+
+.resources__link {
+  transition: opacity 0.5s ease;
+}
+
+.resources__link:hover {
+  opacity: 0.5;
 }
 
 .resources__logo {
@@ -479,6 +511,11 @@
   font-weight: normal;
   text-decoration: none;
   color: white;
+  transition: opacity 0.5s ease;
+}
+
+.footer__column-link:hover {
+  opacity: 0.5;
 }
 
 .footer__social-icon {
