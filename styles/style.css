@@ -234,9 +234,21 @@
 }
 
 .cards {
+  margin: 0;
+  padding: 0;
   width: 920px;
   list-style: none;
   display: flex;
+  flex-wrap: wrap;
+}
+
+.cards__item {
+  text-align: center;
+  width: 240px;
+}
+
+.cards__item:not(:nth-of-type(3)) {
+  margin-right: 100px;
 }
 
 .cards__image {
@@ -244,6 +256,20 @@
   height: 160px;
   border-radius: 50%;
   margin: 60px 40px 43px;
+}
+
+.cards__title {
+  margin: 0 0 16px;
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.cards__description {
+  margin: 0;
+  line-height: 23px;
+  font-size: 18px;
+  font-weight: normal;
 }
 
 .video {
