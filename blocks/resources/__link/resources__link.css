@@ -1,5 +1,6 @@
 .resources__link {
   transition: opacity 0.5s ease;
+  flex-grow: 1;
 }
 
 .resources__link:hover {
