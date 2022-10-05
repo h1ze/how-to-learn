@@ -3,6 +3,6 @@
   width: 240px;
 }
 
-.cards__item:not(:nth-of-type(3)) {
+.cards__item:not(:nth-of-type(3n)) {
   margin-right: 100px;
 }
