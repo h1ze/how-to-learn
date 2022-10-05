@@ -1,5 +1,10 @@
 .video__frames {
   margin: 0 auto;
+  padding: 0;
   position: relative;
   top: 50px;
+  list-style: none;
+  display: flex;
+  width: 1050px;
+  justify-content: space-between;
 }
