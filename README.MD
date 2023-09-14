@@ -7,3 +7,7 @@
 - Flex-box;
 - CSS-анимация;
 - БЭМ;
+
+### Проект опубликован на github-pages
+
+[Посмотреть проект](https://h1ze.github.io/how-to-learn/)
