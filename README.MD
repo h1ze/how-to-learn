@@ -10,4 +10,6 @@
 - CSS-анимация;
 - БЭМ;
 
-[Проект опубликован на github-pages](https://h1ze.github.io/how-to-learn/)
+---
+
+### [[Проект опубликован на github-pages.](https://h1ze.github.io/how-to-learn/
